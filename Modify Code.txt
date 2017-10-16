@@ -1,0 +1,9 @@
+#5 Modify the Code
+NPP1 <- (site1_g_carbon_m2_day*site1_area_m2)
+print (sum(NPP1))
+NPP2 <- (site2_g_carbon_m2_day*site2_area_m2)
+print (sum(NPP2))
+print (sum(NPP1,NPP2))
+print (abs(NPP1-NPP2))
+print(sum(NPP1))
+print (sum(NPP1, NPP2)*365)
