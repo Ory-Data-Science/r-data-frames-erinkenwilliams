@@ -1,0 +1,9 @@
+#6 Code Shuffle
+setwd("~/GitHub")
+library(readr)
+gainesville_precip <- read_csv("~/GitHub/gainesville-precip.csv")
+#the data was imported and then the mean 
+#variable was created using the data
+#the mean variable was then plotted
+monthly_mean_ppt <- colMeans(gainesville_precip)
+plot(monthly_mean_ppt, type = "l", xlab = "Month", ylab = "Mean Precipitation")
