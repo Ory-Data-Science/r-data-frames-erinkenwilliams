@@ -1,0 +1,5 @@
+#9 Shrub Volume Data Frame 
+shrub_dimensions_labeled$length
+volumeshrub <- (length*width*height)
+length(volumeshrub)
+volumeshrub[1-12]
