@@ -1,0 +1,7 @@
+
+#3 Renaming variables
+indiv_mass_g <- c(grams)
+number_indiv <- c(number)
+total_mass_g <- c(indiv_mass_g*number_indiv)
+total_mass_kg <- (total_mass_g/1000)
+print (total_mass_kg)
