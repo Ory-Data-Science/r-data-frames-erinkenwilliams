@@ -1,0 +1,6 @@
+#2 More Variables
+grams <- (250)
+number <- (3)
+biomass <- (grams*number)
+biomass_kg <- ((grams*number)/1000)
+print (biomass_kg)
