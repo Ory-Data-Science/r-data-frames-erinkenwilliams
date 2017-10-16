@@ -1,0 +1,12 @@
+
+#4 Built in Functions
+abs(-15.5)
+round(4.483847,1)
+round(4)
+"species"
+"SPECIES"
+sq_rtvariable <- (sqrt(2.6))
+round(sq_rtvariable, 2)
+secondvariable <- round(sqrt(2.6), 2)
+print (secondvariable)
+sqrtandround <- (round(2.6, 2))
